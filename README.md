@@ -1,0 +1,2 @@
+# frymates
+ Frymates NFT
