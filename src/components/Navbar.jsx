@@ -1,7 +1,7 @@
 import React from "react";
 
 // ICONS
-import {FaBars} from "react-icons/fa"
+import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -19,7 +19,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <FaBars className="icon"/>
+          <FaBars className="icon" />
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -39,7 +39,7 @@ const Navbar = () => {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/manifesto">
                 Mainfesto
               </a>
             </li>
