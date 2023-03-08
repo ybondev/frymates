@@ -12,9 +12,13 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./App.scss";
 
 import "./index.css";
+import Manifesto from "./pages/Manifesto";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <Router>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/manifesto" element={<Manifesto />} />
+    </Routes>
+  </Router>
 );
